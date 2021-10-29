@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition = 'git is a Source Code Management system, meaning git manages files (your source code). Git can track changes and save all versions of a file and upload files to local and external repositories, and other basic operations.'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -19,6 +20,7 @@
 
 //CODE HERE
 
+const gitHubDefinition = 'GitHub is a web-based platform for developers and companies to build and maintain their software. Developers can use GitHub to collaborate on shared files, and local files can be pushed to GitHub through git commands.'
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -31,7 +33,10 @@
 /*
     Create an object called 'init' with 'description' and 'code' properties 
     following the guidelines above to describe the init command.
-*/
+*/ let init = {
+    description: 'git init intializes (creates) a local repositiory (directory) in the open file',
+    code: 'git init',
+};
 
 //CODE HERE
 
@@ -42,6 +47,10 @@
 */
 
 //CODE HERE
+let clone = {
+    description: 'git clone would copy an existing repository from GitHub to local file system (repository)',
+    code: 'git clone INSERT-REPO-URL',
+};
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +59,10 @@
 */
 
 //CODE HERE
+let status = {
+    description: 'git status gives information on the current repository',
+    code: 'git status',
+};
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +71,10 @@
 */
 
 //CODE HERE
+let add = {
+    description: 'git add creates a repository to store and track the file(s) the user wants to have tracked',
+    code: 'git add .' or 'git remote add origin URL',
+};
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,7 +83,10 @@
 */
 
 //CODE HERE
-
+let commit = {
+    description: 'git commit is comparable to saving a file, it preserves the file as it is at that particular moment in time', 
+    code: 'git commit -m 'unique relevant comment',
+};
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +95,7 @@
 */
 
 //CODE HERE
+let push = {
+    description: 'git push is the final command needed to upload a file or folder to a repository, it pushes or sends the existing file to the repository',
+    code: ''git push -u origin main' or 'git push' after intial push',
+};
